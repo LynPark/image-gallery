@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 h1 {
   text-align: center;
   margin-top: 50px;
@@ -42,10 +43,10 @@ h1 {
 
 :root {
   /* dark mode setup */
+  --backgroundColor: mistyrose;
+  --textColor: #0f172a;
   --dark-mode-bg-color: #333;
   --dark-mode-text-color: #f0f0f0;
-  --backgroundColor: #f8fafc;
-  --textColor: #0f172a;
   --darkModeTransition: color 0.3s ease-in-out,
     background-color 0.3s ease-in-out;
 }
